@@ -144,6 +144,14 @@ trna, rrna  = count_rna_copies(records)
 - Plasmid detection uses a combination of topology, sequence length (< 500 kbp circular), and the presence of the word "plasmid" in the record description or keywords. This heuristic works well for standard NCBI RefSeq records but may need adjustment for non-standard annotations.
 - The `translation` column in `all_features.csv` contains the amino acid sequence as deposited in the GenBank record. It is absent for tRNA, rRNA, and ncRNA rows.
 
+
+---
+## Citations
+
+Peter J. A. Cock, Tiago Antao, Jeffrey T. Chang, Brad A. Chapman, Cymon J. Cox, Andrew Dalke, Iddo Friedberg, Thomas Hamelryck, Frank Kauff, Bartek Wilczynski, Michiel J. L. de Hoon, Biopython: freely available Python tools for computational molecular biology and bioinformatics, Bioinformatics, Volume 25, Issue 11, June 2009, Pages 1422–1423, https://doi.org/10.1093/bioinformatics/btp163
+
+Anthropic. (2025). Claude (Claude Sonnet 4.6) [Large language model]. https://www.anthropic.com
+
 ---
 
 ## License
