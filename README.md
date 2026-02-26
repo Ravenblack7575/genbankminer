@@ -4,6 +4,10 @@ A Python tool for mining and summarising GenBank genome files. Point it at a fol
 
 ---
 
+(Note: I wanted a python tool to help me extract information from a genbank file. This is a start. If I need other information, I can easily edit the script to add the features to mine. This script was concieved and generated with the help of Claude Sonnet 4.6. I also had Claude generate this readme, except for this note and the citation.)
+
+---
+
 ## Features
 
 - Handles single or multi-record GenBank files (chromosomes, plasmids, contigs)
